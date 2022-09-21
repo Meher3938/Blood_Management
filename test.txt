@@ -69,3 +69,16 @@ donor
     </div>
 </form>
 </div>
+
+
+<div class="main_wrap aboutus_bg">
+    <div class="wrap">
+        <article>
+            <div id="aboutus_article">
+                <p>Blood banks play an important role in the process of collecting blood and managing blood stocks, approving blood requests, updating donations and updating available blood types. Raster’s web-based BBMS will address the issues and problems encountered in collecting information about donors, blood camps, inventories of blood bags, and blood transfusion services, etc, including donor screening, inventory management, blood ordering, blood usage review and compatibility testing. Blood Bank Management system will greatly increase the safety and quality of the blood supply as well as provide logistics data for the optimal supply chain management.
+                    As we know,blood is so important that it can take life and in the other hand it can give or save life also.So, our motive is to collect blood donors with various kinds of blood groups and also help people to find their needed blood group in their area in critical situation.
+                </p>
+            </div>
+        </article>
+        </div>
+  </div>
