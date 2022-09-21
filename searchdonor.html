@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bbdms</title>
+    <link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/light/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/dark/dark.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/bar/bar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main_wrap nav_bg">
+        <div class="wrap">
+    <nav>
+        <div id="navbar"> 
+        <ul>
+            <li dir="ltr"><a href="index.html">Home</a></li>
+            <li dir="ltr"><a href="aboutus.html">About Us</a></li>
+            <li dir="ltr"><a href="become_a_donor.html">Become A Donor</a>
+            <li dir="ltr"><a href="searchdonor.html">Search Blood</a></li>
+            <li dir="ltr"><a href="contactus.html">Contact Us</a></li>
+        </ul>
+         </div>
+    </nav>
+</div>
+</div>
+<div class="main_wrap bdonor_bg">
+    <div class="wrap bdonor">
+        <p>Search Donor</p>
+        </div>
+  </div>
+
+
+
+<div id="form">
+<form id="form_element">
+    <div class="label2 search">
+    <label  for="">Blood Group
+    </label><br>
+    <input id="box2" type="text" >  
+</div>
+    <div class="label2 search">
+    <label  for="">Location</label><br>
+    <input id="box3" type="text">
+</div>
+<div id="button">
+    <button><p>Submit</p></button>
+    </div>
+</form>
+</div>
+
+
+    
+      <div class="main_wrap footer_bg">
+        <div class="wrap">
+            <footer>
+                <div id="footer">
+                <p>&copy; All rights are Reserved.</p>
+            </div>
+            </footer>
+        </div>
+    </div>
+      <script type="text/javascript" src="scripts/jquery-1.9.0.min.js"></script>
+<script type="text/javascript" src="jquery.nivo.slider.js"></script>
+<script type="text/javascript">
+$(window).load(function() {
+    $('#slider').nivoSlider();
+});
+</script>
+<script>
+    // When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
+
+// Get the navbar
+var navbar = document.getElementById("navbar");
+
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+      <!--<div class="main_wrap">
+        <div class="wrap">
+            </div>
+      </div>-->
+</body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bbdms</title>
+    <link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/light/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/dark/dark.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/bar/bar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="aboutus.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main_wrap nav_bg">
+        <div class="wrap">
+    <nav>
+        <div id="navbar"> 
+        <ul>
+            <li dir="ltr"><a href="index.html">Home</a></li>
+            <li dir="ltr"><a href="aboutus.html">About Us</a></li>
+            <li dir="ltr"><a href="become_a_donor.html">Become A Donor</a>
+            <li dir="ltr"><a href="searchdonor.html">Search Blood</a></li>
+            <li dir="ltr"><a href="contactus.html">Contact Us</a></li>
+        </ul>
+         </div>
+    </nav>
+</div>
+</div>
+<div class="main_wrap p_bg">
+    <div class="wrap">
+<div id="aboutus">
+    <p>About Us</p>
+</div>
+       </div>
+</div>
+<div class="main_wrap aboutus_bg">
+    <div class="wrap">
+        <article>
+            <div id="aboutus_article">
+                <p>Blood banks play an important role in the process of collecting blood and managing blood stocks, approving blood requests, updating donations and updating available blood types. Raster’s web-based BBMS will address the issues and problems encountered in collecting information about donors, blood camps, inventories of blood bags, and blood transfusion services, etc, including donor screening, inventory management, blood ordering, blood usage review and compatibility testing. Blood Bank Management system will greatly increase the safety and quality of the blood supply as well as provide logistics data for the optimal supply chain management.
+                    As we know,blood is so important that it can take life and in the other hand it can give or save life also.So, our motive is to collect blood donors with various kinds of blood groups and also help people to find their needed blood group in their area in critical situation.
+                </p>
+            </div>
+        </article>
+        </div>
+  </div>
+    
+      <div class="main_wrap footer_bg">
+        <div class="wrap">
+            <footer>
+                <div id="footer">
+                <p>&copy; All rights are Reserved.</p>
+            </div>
+            </footer>
+        </div>
+    </div>
+      <script type="text/javascript" src="scripts/jquery-1.9.0.min.js"></script>
+<script type="text/javascript" src="jquery.nivo.slider.js"></script>
+<script type="text/javascript">
+$(window).load(function() {
+    $('#slider').nivoSlider();
+});
+</script>
+<script>
+    // When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
+
+// Get the navbar
+var navbar = document.getElementById("navbar");
+
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+      <!--<div class="main_wrap">
+        <div class="wrap">
+            </div>
+      </div>-->
+</body>
+</html>
