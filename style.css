@@ -101,7 +101,8 @@ h2{
 .p_bg{
     background-color: rgb(94, 92, 92);
     width: 100%;
-    position: fixed;
+    height: 50px;
+    margin-top: 45px;
 }
 .aboutus_bg{
     
@@ -372,4 +373,15 @@ h2{
 #switch p:hover{
     color: white;
   
+}
+
+/* #contact_form{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 45px;
+} */
+.nav_main{
+    position: fixed;
+    top: 0;
+    z-index: 1;
 }

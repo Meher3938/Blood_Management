@@ -1,0 +1,71 @@
+contack form
+
+
+<div id="form">
+<form id="form_message">
+    <div class="label3">
+    <label for="">Full Name </label><br>
+    <input id="box4" type="text">
+</div>
+    <div class="label3">
+    <label for="">Mobile Number</label><br>
+    <input id="box4" type="number">
+</div>
+    <div class="label3">
+    <label for="">Email Address</label><br>
+    <input id="box4" type="email">
+</div>
+    <div class="label4">
+    <label for="">Message</label><br>
+    <input id="box5" type="password">
+</div>
+<div id="button">
+    <button><p>Submit</p></button>
+    </div>
+</form>
+</div>
+
+
+
+donor
+
+
+<div id="form">
+<form id="form_element">
+    <div class="label">
+    <label for="">Full Name</label><br>
+    <input id="box" type="text">
+</div>
+    <div class="label">
+    <label for="">Mobile Number</label><br>
+    <input id="box" type="number">
+</div>
+    <div class="label">
+    <label for="">Email Id</label><br>
+    <input id="box" type="email">
+</div>
+    <div class="label">
+    <label for="">Age</label><br>
+    <input id="box" type="password">
+</div>
+    <div class="label">
+    <label for="">Gender</label><br>
+    <input id="box" type="text">
+</div>
+    <div class="label">
+    <label for="">Blood group</label><br>
+    <input id="box" type="text">
+</div><br>
+    <div class="label2">
+    <label  for="">Address</label><br>
+    <input id="box2" type="text">
+</div>
+    <div class="label2">
+    <label  for="">Message</label><br>
+    <input id="box3" type="text">
+</div>
+<div id="button">
+    <button><p>Submit</p></button>
+    </div>
+</form>
+</div>
